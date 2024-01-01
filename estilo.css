@@ -1,167 +1,37 @@
-/* ------------------- */
-/* TEMPLATE        -- */
-/* ----------------- */
-/*
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
-
-body {
-	height: 100%;
-	background-color: #333; 
-	color: whitesmoke;
-	font-size: 16px;
-	font-family: "Lato";
+body{
+	background-color: white; 
+	color: #333;
 }
-h1 {
-	font-size: 32px;
-}
-h2 {
-	font-size: 26px;
-}
-h3 {
-	font-size: 18px;
-}
-p {
-	margin: 0 0 15px;
-	line-height: 24px;
-	color: gainsboro;
-}
-a {
-	color: dodgerblue;
-	text-decoration: none;
-	border-bottom: 1px dotted;
-}
-a:hover {
-	color: tomato;
-}
-
 .container {
-	max-width: 960px;
+	max-width: 1400px;
 	height: 100%;
 	margin: 0 auto;
 	padding: 20px;
 }
-*/
-/* ------------------- */
-/* PEN STYLES      -- */
-/* ----------------- */
-
-/* MAKE IT CUTE ----- */
-/*
-.tabs {
-	position: relative;
-	display: flex;
-	min-height: 300px;
-	border-radius: 8px 8px 0 0;
-	overflow: hidden;
-}
-
-.tabby-tab {
-	flex: 1;
-}
-
-.tabby-tab label {
-	display: block;
-	box-sizing: border-box;	
-	height: 40px;
-
-	padding: 10px;
-	text-align: center;
-	cursor: pointer;
-	transition: background 0.5s ease;
-}
-
-.tabby-tab label:hover {
-	background: #7b52ab; 
-}
-
-.tabby-content {
-	position: absolute;
-
-	left: 0;
-	bottom: 0;
-	right: 0;	
-	top: 40px;
-
-	padding: 20px;
-	border-radius: 0 0 8px 8px;
-	background: #553285; 
-
-	transition:
-		opacity 0.8s ease,
-		transform 0.8s ease;
-
-
-	opacity: 0;
-	transform: scale(0.1);
-	transform-origin: top left;
-}
-
-.tabby-content img {
-	float: left;
-	margin-right: 20px;
-	border-radius: 8px;
-}
-
-.tabby-tab [type="radio"] {
-	display: none;
-}
-[type="radio"]:checked ~ label {
-	background: #553285; 
-}
-
-[type="radio"]:checked ~ label ~ .tabby-content {
-	z-index: 1;
-
-	opacity: 1;
-	transform: scale(1);
-}
-
-@media screen and (max-width: 767px) {
-	.tabs {
-		min-height: 400px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.tabs {
-		min-height: 580px;
-	}
-	.tabby-tab label {
-		height: 60px;
-	}
-	.tabby-content {
-		top: 60px;
-	}
-	.tabby-content img {
-		float: none;
-		margin-right: 0;
-		margin-bottom: 20px;
-	}
-}*/
-/* PRUEBA #2*/
 .season_tabs {
 	position: relative;
-	min-height: 360px; /* This part sucks */
+	min-height: 650px; /* This part sucks */
 	clear: both;
-	margin: 25px 0;
+	margin: 0px 170px;
 }
 .season_tab {
-	float: left;
+	float: right;/*left*/
 	clear: both;
-	width: 286px;
+	width: 50px;
 }
 .season_tab label {
 	background: #eee;
 	padding: 10px;
 	border: 1px solid #ccc;
 	margin-left: -1px;
-	font-size: 21px;
+	font-size: 18px;
 	vertical-align: middle;
 	position: relative;
 	left: 1px;
-	width: 264px;
-	height: 68px;
-	display: table-cell;
+	width: 20px;
+	height: 15%;
+	/*display: table-cell;*/
 }
 .season_tab [type="radio"] {
 	display: none;
@@ -169,11 +39,11 @@ a:hover {
 .season_content {
 	position: absolute;
 	top: 0;
-	left: 286px;
+	left: 0; /*286px;*/
 	background: white;
-	right: 0;
+	right: 60px;/*0;*/
 	bottom: 0;
-	padding: 20px;
+	padding: 30px 50px;
 	border: 1px solid #ccc;
 }
 .season_content span {
@@ -181,9 +51,12 @@ a:hover {
 }
 [type="radio"]:checked ~ label {
 	background: white;
-	border-bottom: 2px solid #8bc34a;
+	/*border-bottom: 2px solid #8bc34a;*/
 	z-index: 2;
 }
 [type="radio"]:checked ~ label ~ .season_content {
 	z-index: 1;
+}
+.text-vertical {
+  writing-mode: vertical-rl;
 }
