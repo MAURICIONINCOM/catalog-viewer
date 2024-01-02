@@ -1,7 +1,7 @@
 /* ------------------- */
 /* TEMPLATE        -- */
 /* ----------------- */
-/*
+
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
 
 body {
@@ -40,13 +40,13 @@ a:hover {
 	margin: 0 auto;
 	padding: 20px;
 }
-*/
+
 /* ------------------- */
 /* PEN STYLES      -- */
 /* ----------------- */
 
 /* MAKE IT CUTE ----- */
-/*
+
 .tabs {
 	position: relative;
 	display: flex;
@@ -137,5 +137,5 @@ a:hover {
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
-}*/
+}
 /* PRUEBA #2*/
