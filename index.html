@@ -1,49 +1,135 @@
+<!DOCTYPE html> 
+<html>   
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./estilo.css" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>  
+<body class="has-text-centered body_mady"> 
+    <h1 class="is-size-4 has-text-white"> 
+      EMPRESA NINCOM 
+    </h1> 
+    <div class="container is-fluid"> 
+        <div class="columns is-mobile"> 
+            <div class="column"> 
+              <div class="season_tabs_mady">        
+                <div class="season_tab_mady label_mady">
+                  <input type="radio" id="tab-1" name="tab-group-1" checked />
+                  <label for="tab-1" class="text_vertical_mady">VINOS</label>
+                  <div class="season_content_mady">
+                    <div class="columns is-desktop">
+                      <div class="column">
+                        <figure class="image is-square is-fullwidth">
+                          <img src="./img/img_1.jpeg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <figure class="image is-square">
+                          <img src="./img/img_2.jpeg">
+                        </figure>
+                      </div>                      
+                    </div>
+                    <div class="columns is-desktop">
+                      <div class="column">
+                        <figure class="image is-square">
+                          <img src="./img/img_3.jpeg">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <figure class="image is-square">
+                          <img src="./img/img_4.jpeg">
+                        </figure>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="season_tab_mady label_mady">
+                  <input type="radio" id="tab-2" name="tab-group-1" />
+                  <label for="tab-2" class="text_vertical_mady">QUESOS</label>
+                  <div class="season_content_mady">
+                    <p>PRODUCTO QUESOS<br />PRECIO</p>
+                  </div>
+                </div>
+        
+                <div class="season_tab_mady label_mady">
+                  <input type="radio" id="tab-3" name="tab-group-1" />
+                  <label for="tab-3" class="text_vertical_mady">POSTRES</label>
+                  <div class="season_content_mady">
+                    <p>PRODUCTO POSTRES<br />PRECIO</p>
+                  </div>
+                </div>
+                <div class="season_tab_mady label_mady">
+                  <input type="radio" id="tab-4" name="tab-group-1" />
+                  <label for="tab-4" class="text_vertical_mady">DULCES</label>
+                  <div class="season_content_mady">
+                    <p>PRODUCTO DULCES<br />PRECIO</p>
+                  </div>
+                </div>
+                <div class="season_tab_mady label_mady">
+                  <input type="radio" id="tab-5" name="tab-group-1" />
+                  <label for="tab-5" class="text_vertical_mady">FIAMBRES</label>
+                  <div class="season_content_mady">
+                    <p>PRODUCTO FIAMBRES<br />PRECIO</p>
+                  </div>
+                </div>
+              </div>        
+            </div>
+        </div>
+    </div> 
+</body>  
+</html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./estilo.css" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./estilo.css" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
-  <body>
-    <div class="container">
+  <body class="body_mady">    
+    <div class="container_mady">      
       <div>EMPRESA NINCOM</div>      
-      <div class="season_tabs">        
-        <div class="season_tab label_style">
+      <div class="season_tabs_mady">        
+        <div class="season_tab_mady label_mady">
           <input type="radio" id="tab-1" name="tab-group-1" checked />
-          <label for="tab-1" class="text-vertical">VINOS</label>
-          <div class="season_content">            
+          <label for="tab-1" class="text_vertical_mady">VINOS</label>
+          <div class="season_content_mady">            
             <p>PRODUCTO VINOS<br />PRECIO</p>
           </div>
         </div>
 
-        <div class="season_tab label_style">
+        <div class="season_tab_mady label_mady">
           <input type="radio" id="tab-2" name="tab-group-1" />
-          <label for="tab-2" class="text-vertical">QUESOS</label>
-          <div class="season_content">
+          <label for="tab-2" class="text_vertical_mady">QUESOS</label>
+          <div class="season_content_mady">
             <p>PRODUCTO QUESOS<br />PRECIO</p>
           </div>
         </div>
 
-        <div class="season_tab label_style">
+        <div class="season_tab_mady label_mady">
           <input type="radio" id="tab-3" name="tab-group-1" />
-          <label for="tab-3" class="text-vertical">POSTRES</label>
-          <div class="season_content">
+          <label for="tab-3" class="text_vertical_mady">POSTRES</label>
+          <div class="season_content_mady">
             <p>PRODUCTO POSTRES<br />PRECIO</p>
           </div>
         </div>
-        <div class="season_tab label_style">
+        <div class="season_tab_mady label_mady">
           <input type="radio" id="tab-4" name="tab-group-1" />
-          <label for="tab-4" class="text-vertical">DULCES</label>
-          <div class="season_content">
+          <label for="tab-4" class="text_vertical_mady">DULCES</label>
+          <div class="season_content_mady">
             <p>PRODUCTO DULCES<br />PRECIO</p>
           </div>
         </div>
-        <div class="season_tab label_style">
+        <div class="season_tab_mady label_mady">
           <input type="radio" id="tab-5" name="tab-group-1" />
-          <label for="tab-5" class="text-vertical">FIAMBRES</label>
-          <div class="season_content">
+          <label for="tab-5" class="text_vertical_mady">FIAMBRES</label>
+          <div class="season_content_mady">
             <p>PRODUCTO FIAMBRES<br />PRECIO</p>
           </div>
         </div>
       </div>
-    </div>
+    </div>   
   </body>
-</html>
+</html> -->

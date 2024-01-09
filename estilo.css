@@ -1,47 +1,49 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
-body {
+@import url(https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css);
+.body_mady {
 	background-color: #7b52ab;
 	color: white;
 }
-.container {
-	max-width: 1400px;
+.container_mady {
+	max-width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	padding: 20px;
 }
-.season_tabs {
+.season_tabs_mady {
 	position: relative;
 	min-height: 650px; /* This part sucks */
 	clear: both;
 	margin: 0px 170px;
 }
-.season_tab {
+.season_tab_mady {
 	float: right; /*left*/
 	clear: both;
 	width: 50px;
 }
-.season_tab label {
+.season_tab_mady label {
 	background: #553285;
-	padding: 10px;
+	padding: 1px;
+	padding-top: 10px;
 	border: 1px solid #ccc;
 	margin-left: -1px;
 	font-size: 18px;
 	vertical-align: middle;
 	position: relative;
 	left: 1px;
-	width: 20px;
+	width: 30px;
 	height: 15%;
 	/*display: table-cell;*/
 }
-.season_tab [type="radio"] {
+.season_tab_mady [type="radio"] {
 	display: none;
 }
-.season_content {
+.season_content_mady {
 	position: absolute;
 	top: 0;
 	left: 0; /*286px;*/
 	background: rgb(211, 144, 255);
-	right: 60px; /*0;*/
+	right: 50px; /*0;*/
 	bottom: 0;
 	padding: 30px 50px;
 	border: 1px solid #ccc;
@@ -52,7 +54,7 @@ body {
 	transform: scale(0.1);
 	transform-origin: top left;
 }
-.season_content span {
+.season_content_mady span {
 	animation: 0.5s ease-out 0s 1 slideInFromTop;
 }
 [type="radio"]:checked ~ label {
@@ -60,19 +62,20 @@ body {
 	/*border-bottom: 2px solid #8bc34a;*/
 	z-index: 2;
 }
-[type="radio"]:checked ~ label ~ .season_content {
+[type="radio"]:checked ~ label ~ .season_content_mady {
 	z-index: 1;
 	opacity: 1;
 	transform: scale(1);
 }
-.text-vertical {
+.text_vertical_mady {
 	writing-mode: vertical-rl;
+
 }
 label {
 	user-select: none;
 	cursor: default;
 }
-.label_style label:hover {
+.label_mady label:hover {
 	background: #dfb1fd;
 	color: #2f0d5f;
 }
