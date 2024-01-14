@@ -12,6 +12,9 @@
 	{ 
 		background:lightgreen; 
 	} 
+	.season-tab-mady label {
+		width: 60px;
+	}
 } 
 @media screen and (min-width: 769px), print { 
 	.bulma-responsive 
