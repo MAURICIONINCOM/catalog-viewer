@@ -1,45 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
-.text-success 
-{ 
-	color:darkgreen; 
-} 
-.bulma-responsive 
-{ 
-	color:white; 
-} 
-@media screen and (max-width: 768px) { 
-	.bulma-responsive 
-	{ 
-		background:lightgreen; 
-	} 
-	.season-tab-mady label {
-		width: 60px;
+.text-success {
+	color: darkgreen;
+}
+.bulma-responsive {
+	color: white;
+}
+@media screen and (max-width: 768px) {
+	.bulma-responsive {
+		background: lightgreen;
 	}
-} 
-@media screen and (min-width: 769px), print { 
-	.bulma-responsive 
-	{ 
-		background:green; 
-	} 
-} 
-@media screen and (min-width: 1024px) { 
-	.bulma-responsive 
-	{ 
-		background:darkgreen; 
-	} 
-} 
-@media screen and (min-width: 1216px) { 
-	.bulma-responsive 
-	{ 
-		background:lightseagreen; 
-	} 
-} 
-@media screen and (min-width: 1408px) { 
-	.bulma-responsive 
-	{ 
-		background:darkolivegreen; 
-	} 
-} 
+}
+@media screen and (min-width: 769px), print {
+	.bulma-responsive {
+		background: green;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.bulma-responsive {
+		background: darkgreen;
+	}
+}
+@media screen and (min-width: 1216px) {
+	.bulma-responsive {
+		background: lightseagreen;
+	}
+}
+@media screen and (min-width: 1408px) {
+	.bulma-responsive {
+		background: darkolivegreen;
+	}
+}
 /* diseño mady */
 .body-mady {
 	background-color:/*#7b52ab;*/ beige;
@@ -53,18 +43,18 @@
 }
 .season-tabs-mady {
 	position: relative;
-	min-height: 650px; 
+	min-height: 650px;
 	clear: both;
 	margin: 0px 170px;
 }
 .season-tab-mady {
-	float: right; 
+	float: right;
 	clear: both;
 	width: 50px;
 }
 .season-tab-mady label {
 	background: #553285;
-	color:white;
+	color: white;
 	padding: 1px;
 	padding-top: 10px;
 	border: 1px solid #ccc;
@@ -73,8 +63,8 @@
 	vertical-align: middle;
 	position: relative;
 	left: 1px;
-	width: 30px;
-	height: 15%;	
+	width: 60px;
+	height: 15%;
 }
 .season-tab-mady [type="radio"] {
 	display: none;
@@ -83,8 +73,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: /*rgb(211, 144, 255);*/white;
-	right: 50px; 
+	background: /*rgb(211, 144, 255);*/ white;
+	right: 50px;
 	bottom: 0;
 	padding: 30px 50px;
 	border: 1px solid #ccc;
@@ -100,7 +90,7 @@
 }
 [type="radio"]:checked ~ label {
 	background: #d390ff;
-	color:white;
+	color: white;
 	z-index: 2;
 }
 [type="radio"]:checked ~ label ~ .season-content-mady {
@@ -116,6 +106,6 @@ label {
 	cursor: default;
 }
 .label-mady label:hover {
-	background:#dfb1fd;
-	color: /*#2f0d5f;*/white;
+	background: #dfb1fd;
+	color: /*#2f0d5f;*/ white;
 }
