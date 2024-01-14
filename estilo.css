@@ -1,28 +1,67 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
-/* @import url(https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css); */
-.body_mady {
-	background-color: #7b52ab;
+.text-success 
+{ 
+	color:darkgreen; 
+} 
+.bulma-responsive 
+{ 
+	color:white; 
+} 
+@media screen and (max-width: 768px) { 
+	.bulma-responsive 
+	{ 
+		background:lightgreen; 
+	} 
+} 
+@media screen and (min-width: 769px), print { 
+	.bulma-responsive 
+	{ 
+		background:green; 
+	} 
+} 
+@media screen and (min-width: 1024px) { 
+	.bulma-responsive 
+	{ 
+		background:darkgreen; 
+	} 
+} 
+@media screen and (min-width: 1216px) { 
+	.bulma-responsive 
+	{ 
+		background:lightseagreen; 
+	} 
+} 
+@media screen and (min-width: 1408px) { 
+	.bulma-responsive 
+	{ 
+		background:darkolivegreen; 
+	} 
+} 
+/* diseño mady */
+.body-mady {
+	background-color:/*#7b52ab;*/ beige;
 	color: white;
 }
-.container_mady {
+.container-mady {
 	max-width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	padding: 20px;
 }
-.season_tabs_mady {
+.season-tabs-mady {
 	position: relative;
-	min-height: 650px; /* This part sucks */
+	min-height: 650px; 
 	clear: both;
 	margin: 0px 170px;
 }
-.season_tab_mady {
-	float: right; /*left*/
+.season-tab-mady {
+	float: right; 
 	clear: both;
 	width: 50px;
 }
-.season_tab_mady label {
+.season-tab-mady label {
 	background: #553285;
+	color:white;
 	padding: 1px;
 	padding-top: 10px;
 	border: 1px solid #ccc;
@@ -32,18 +71,17 @@
 	position: relative;
 	left: 1px;
 	width: 30px;
-	height: 15%;
-	/*display: table-cell;*/
+	height: 15%;	
 }
-.season_tab_mady [type="radio"] {
+.season-tab-mady [type="radio"] {
 	display: none;
 }
-.season_content_mady {
+.season-content-mady {
 	position: absolute;
 	top: 0;
-	left: 0; /*286px;*/
-	background: rgb(211, 144, 255);
-	right: 50px; /*0;*/
+	left: 0;
+	background: /*rgb(211, 144, 255);*/white;
+	right: 50px; 
 	bottom: 0;
 	padding: 30px 50px;
 	border: 1px solid #ccc;
@@ -54,28 +92,27 @@
 	transform: scale(0.1);
 	transform-origin: top left;
 }
-.season_content_mady span {
+.season-content-mady span {
 	animation: 0.5s ease-out 0s 1 slideInFromTop;
 }
 [type="radio"]:checked ~ label {
 	background: #d390ff;
-	/*border-bottom: 2px solid #8bc34a;*/
+	color:white;
 	z-index: 2;
 }
-[type="radio"]:checked ~ label ~ .season_content_mady {
+[type="radio"]:checked ~ label ~ .season-content-mady {
 	z-index: 1;
 	opacity: 1;
 	transform: scale(1);
 }
-.text_vertical_mady {
+.text-vertical-mady {
 	writing-mode: vertical-rl;
-
 }
 label {
 	user-select: none;
 	cursor: default;
 }
-.label_mady label:hover {
-	background: #dfb1fd;
-	color: #2f0d5f;
+.label-mady label:hover {
+	background:#dfb1fd;
+	color: /*#2f0d5f;*/white;
 }
