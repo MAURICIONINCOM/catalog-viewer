@@ -2,6 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css"
+    />
+    <style>
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+      }
+
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-centered is-mobile">
+          <div class="column is-half">
+            <h1 class="title is-1 is-size-1-mobile">Test de imagenes</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-centered is-mobile">
+          <div class="column is-half is-6-mobile is-6-tablet">
+            <div class="image-container">
+              <img src="./img/img_1.jpeg" alt="Responsive Image" />
+            </div>
+          </div>
+          <div class="column is-half is-6-mobile is-6-tablet">
+            <div class="image-container">
+              <img src="./img/img_2.jpeg" alt="Responsive Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="./estilo.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./bulma/css/bulma.css" />
@@ -22,36 +74,24 @@
                       <div class="column is-6-mobile is-6-tablet">
                         <figure class="image is-variable">
                           <img src="./img/img_1.jpeg">
-                        </figure>
-                        <!-- <figure class="is-hidden-mobile">
-                          <img src="./img/img_1_E.jpeg">
-                        </figure> -->
+                        </figure>               
                       </div>
                       <div class="column is-6-mobile is-6-tablet">
                         <figure class="image is-variable">
                           <img src="./img/img_2.jpeg">
                         </figure>
-                        <!-- <figure class="is-hidden-mobile">
-                          <img src="./img/img_2_E.jpeg">
-                        </figure> -->
                       </div>                      
                     </div>
                     <div class="columns is-mobile">
                       <div class="column is-6-mobile is-6-tablet">
                         <figure class="image is-variable">
                           <img src="./img/img_3.jpeg">
-                        </figure>
-                        <!-- <figure class="is-hidden-mobile">
-                          <img src="./img/img_3_E.jpeg">
-                        </figure> -->
+                        </figure>                        
                       </div>
                       <div class="column is-6-mobile is-6-tablet">
                         <figure class="image is-variable">
                           <img src="./img/img_4.jpeg">
-                        </figure>
-                        <!-- <figure class="is-hidden-mobile">
-                          <img src="./img/img_4_E.jpeg">
-                        </figure> -->
+                        </figure>                       
                       </div>                      
                     </div>
                   </div>
@@ -88,14 +128,13 @@
                     <p>PRODUCTO FIAMBRES<br />PRECIO</p>
                   </div>
                 </div>
-
               </div>
             </div>            
           </div>
         </p> 
     </div> 
 </body> 
-</html>
+</html> -->
 <!-- </head>  
 <body class="has-text-centered body_mady"> 
     <h1 class="is-size-4 has-text-white"> 
